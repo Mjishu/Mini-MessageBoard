@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+    form(action="/new" method="POST") 
+        h1 Create Post 
+        input(type="text" placeholder="author" name="author") 
+        br
+        input(type="text" placeholder="message" name="message")
+        br
+        button(type="submit") Submit
